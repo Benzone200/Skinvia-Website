@@ -234,7 +234,7 @@ const Home = () => {
                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:ml-[10%] lg:ml-[300px] lg:mr-[250px] gap-y-6 ml-[40px]">
                      {womanPic.map((womanPic,index) => (
                        <div keys={index}>
-                         <img src={womanPic.src} className=" w-[100px] lg:w-[220px] ml-[30px]"></img>
+                         <img src={womanPic.src} className=" w-[100px] lg:w-[180px] ml-[30px]"></img>
                          <p className="font-500 text-[15px] lg:text-[20px] lg:w-[150px] ml-[30px] lg:leading-[24px] w-[100px] ">{womanPic.title}</p>
                          <p className="text-[#bf6159] lg:ml-[30px] ml-[40px] text-[15px]">{womanPic.label}</p>
                        </div>
